@@ -20,7 +20,7 @@ h1{
 
 .response{
 
-  margin: 5% 15% 10% ;
+  margin: 5% 15% 6% ;
 }
 
 
@@ -28,4 +28,21 @@ h1{
   margin-top:75px;
   height:200px;
   width:200px;
+}
+
+.newButton{
+  background-color: chocolate;
+  color: white;
+  border-style: groove;
+  margin-top:40px;
+}
+
+.buttonRef{
+  color: white;
+}
+
+.buttonRef:hover{
+  color:white;
+  opacity: 0.8;
+  text-decoration: none;
 }

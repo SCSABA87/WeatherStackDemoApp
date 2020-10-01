@@ -1,8 +1,6 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const http = require("http");
-
-
 const app = express();
 
 app.set(`view engine`, `ejs`);
@@ -10,8 +8,6 @@ app.use(express.static("public"));
 app.use(bodyParser.urlencoded({
   extended: true
 }));
-
-
 
 app.get("/", function(req, res) {
 
@@ -49,29 +45,14 @@ res.render("response", {
 
 });
 
-
-
 res.send();
 
+}); // end of response.on
 
 
+}); // end of const request
 
-});
-
-
-});
-
-
-
-
-
-});
-
-
-
-
-
-
+}); // end of POST method
 
 
 app.listen(process.env.PORT || 3000, function() {
