@@ -1,0 +1,31 @@
+body{
+  text-align: center;
+  background-image: linear-gradient(blue,silver);
+  color:white;
+
+}
+
+
+h1{
+  margin-top:10%;
+}
+
+.weatherForm{
+
+  position: relative;
+  left:-10px;
+  margin:5% 15% 30%;
+}
+
+
+.response{
+
+  margin: 5% 15% 10% ;
+}
+
+
+.weatherImage{
+  margin-top:75px;
+  height:200px;
+  width:200px;
+}
